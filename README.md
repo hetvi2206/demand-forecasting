@@ -1,7 +1,7 @@
 
-# 🏭 DemandPulse: Short-Term Demand Forecasting for Manufacturing Plants
+# 🏭 XDemand: Short-Term Demand Forecasting for Manufacturing Plants
 
-**DemandPulse** is an AI-powered application built using **XGBoost** and **Streamlit** to forecast short-term product demand for manufacturing plants based on historical sales data.  
+**XDemand** is an AI-powered application built using **XGBoost** and **Streamlit** to forecast short-term product demand for manufacturing plants based on historical sales data.  
 It uses time-series features, lag variables, and rolling statistics to provide accurate, explainable demand predictions for specific dates or date ranges.
 
 ---
@@ -91,12 +91,3 @@ The app will launch in your browser at `http://localhost:8501`
 ## 📌 Requirements
 
 See [`requirements.txt`](requirements.txt)
-
-## 📣 Author
-
-**Hetvi Dalal**  
-Connect with me on [Twitter](https://twitter.com) or [LinkedIn](https://linkedin.com)
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE)
