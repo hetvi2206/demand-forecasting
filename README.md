@@ -31,14 +31,14 @@ It uses time-series features, lag variables, and rolling statistics to provide a
 ## 📁 Project Structure
 
 ```
-📦 demandpulse/
-├── demand_forecast_notebook.ipynb   # Model training and EDA notebook
-├── demandpulse_app.py               # Streamlit app for interactive forecasting
-├── train.csv                        # Historical sales data
-├── xgboost_demand_model.joblib      # Trained XGBoost model
-├── model_features.joblib            # List of features used by the model
-├── requirements.txt                 # Project dependencies
-└── README.md                        # This documentation file
+📦 xdemand/
+├── Short_Term_Demand_Forecasting_Notebook_(XGBoost).ipynb   # Model training and EDA notebook
+├── app.py                                                   # Streamlit app for interactive forecasting
+├── train.csv                                                # Historical sales data
+├── xgboost_demand_model.joblib                              # Trained XGBoost model
+├── model_features.joblib                                    # List of features used by the model
+├── requirements.txt                                         # Project dependencies
+└── README.md                                                # This documentation file
 ```
 
 ---
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 Open and run the Jupyter notebook:
 
 ```bash
-jupyter notebook demand_forecast_notebook.ipynb
+jupyter notebook Short_Term_Demand_Forecasting_Notebook_(XGBoost).ipynb
 ```
 
 This will:
@@ -67,7 +67,7 @@ This will:
 ### 3️⃣ Run the Streamlit App
 
 ```bash
-streamlit run demandpulse_app.py
+streamlit run app.py
 ```
 
 The app will launch in your browser at `http://localhost:8501`
